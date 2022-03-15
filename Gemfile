@@ -11,3 +11,5 @@ gem "sinatra", "~> 2.2"
 gem "sinatra-contrib", "~> 2.2"
 
 gem "capybara", "~> 3.36"
+
+gem "launchy", "~> 2.5"
