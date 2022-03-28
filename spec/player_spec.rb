@@ -17,11 +17,4 @@ describe Player do
       expect(pikachu.points).to eq described_class::DEFAULT_POINTS
     end
   end
-
-  describe '#attack' do
-    it 'damages the player' do
-      expect(calyrex).to receive(:receive_damage)
-      pikachu.attack(calyrex)
-    end
-  end
 end
